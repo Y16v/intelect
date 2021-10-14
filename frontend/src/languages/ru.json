@@ -1,0 +1,7 @@
+{
+  "login.username": "Имя пользователя",
+  "login.password": "Пароль",
+  "login.error": "Неверный пароль или логин!",
+  "login.authorization": "Авторизация",
+  "login": "Войти",
+}

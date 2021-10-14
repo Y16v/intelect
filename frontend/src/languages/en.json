@@ -1,0 +1,8 @@
+{
+  "login.username": "User name",
+  "login.password": "Password",
+  "login.error": "Invalid password or login!",
+  "login.authorization": "Authorization",
+  "login": "Login",
+  "": ""
+}

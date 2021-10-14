@@ -1,0 +1,56 @@
+.container-card {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.multiplier-games-expresion-modal-contain {
+    background-image: url(../styles/img/mini-fon-multipier.jpg);
+    background-size: 100% 100%;
+    margin-top: -10px;
+    background-color: rgba(144, 163, 239, 0.4);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card-row {
+    width: 200px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.25),
+    -2px -2px 5px 3px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background: #85b1e3;
+}
+.card-header {
+    color: #002368;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid #EF9A9A;
+    padding: 5px 10px;
+    background: #ff9d00;
+}
+.icon-card {
+    width: 95%;
+    height: 85%;
+    margin: auto;
+}
+.card-row:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 2px 2px 5px 3px rgb(255, 190, 114),
+    -2px -2px 5px 3px rgb(231, 255, 103);
+}
+.text-typography {
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.multiplier-games-expresion-modal-button{
+    background-image: url(../styles/img/button-yellow.png);
+    background-size: 100% 100%;
+}

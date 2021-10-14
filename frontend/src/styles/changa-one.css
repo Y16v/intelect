@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'changa-one';
+    src: url('ChangaOne-Italic.ttf'), url('ChangaOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

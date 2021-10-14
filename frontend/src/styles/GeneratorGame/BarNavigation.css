@@ -1,0 +1,85 @@
+.gener-bar-ul {
+    list-style-type: none;
+    border-bottom: 2px solid #4eff3c;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: block;
+    text-align: center;
+}
+
+.gener-bar-li {
+    float: left;
+}
+
+.gener-bar-logo {
+    justify-content: center;
+    float: left;
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+.gener-bar-logo:hover {
+    font-size: 26px;
+}
+
+.gener-bar-copy-button {
+    float: left;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: aqua;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+.gener-bar-copy-button:hover {
+    background-color: #007979;
+    cursor: pointer;
+}
+
+.gener-bar-copy-text {
+    margin-bottom: 10%;
+}
+
+.gener-bar-li:last-child {
+    border-right: none;
+}
+
+.gener-bar-li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.gener-bar-li a:hover:not(.active) {
+}
+
+.gener-bar-settings {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.gener-bar-settings:hover{
+    padding: 12px 14px;
+    color: #0F6E64;
+}

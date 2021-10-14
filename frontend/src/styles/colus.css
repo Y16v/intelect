@@ -1,0 +1,19 @@
+@import url("../styles/fonts/webfonts/Montserrat.css");
+
+@font-face {
+    font-family: 'Colus';
+    src: local('Colus Regular'), local('Colus-Regular'), url('Colusregular.woff2') format('woff2'), url('Colusregular.woff') format('woff'), url('Colusregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wave {
+    border: 0;
+    height: 60vh; /*your own value to suit your content*/
+    width: 2px;
+    background-image: -webkit-linear-gradient(to bottom, #d1eeff, #000000, #d1eeff);
+    background-image: -moz-linear-gradient(to bottom, #46b1ff, #000000, #2c24ff);
+    background-image: -ms-linear-gradient(to bottom, #4013ff, #000000, #225bf7);
+    background-image: -o-linear-gradient(to bottom, #8cc3ff, #000000, #79d5f2);
+    background-image: linear-gradient(to bottom, #d1eeff, #000000, #d1eeff);
+}

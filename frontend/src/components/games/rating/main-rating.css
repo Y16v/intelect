@@ -1,0 +1,52 @@
+.main-rating-background-img {
+    background-image: url(../../../styles/img/wallpaper-art-image.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.main-rating-background-img .main-card {
+    padding-bottom: 24px;
+}
+
+.main-rating-background-img .main-card .table-pagination {
+    background: #F1C40F;
+}
+
+.main-rating-background-img .main-card .table-pagination div p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-rating-background-img .main-card .table-pagination button span {
+    color: white;
+    font-size: 18px;
+}
+.main-rating-background-img .students-table th {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+}
+
+
+.main-rating-background-img .students-table td {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.main-rating-background-img .students-table tbody .place-number-column {
+    background-color: #F1C40F;
+    width: 20px;
+    text-align: center;
+}
+
+.main-rating-background-img .student-list-table-spinner {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px 0;
+}

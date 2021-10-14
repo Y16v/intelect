@@ -1,0 +1,15 @@
+.main-container {
+    margin-top: 15px;
+}
+
+.main-container section {
+    margin-top: 10px;
+}
+
+.main-container td {
+    border: none;
+}
+
+.sections {
+    max-width: 70%;
+}

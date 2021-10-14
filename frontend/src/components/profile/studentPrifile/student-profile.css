@@ -1,0 +1,79 @@
+.student-profile-page{
+    width: 100vw;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+}
+
+.student-profile-page-card{
+    width: 30vw;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 10px 20px rgb(45, 43, 45), 0 6px 6px rgba(210, 207, 53, 0.23);
+    margin: 1vw;
+}
+
+.student-profile-page-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.student-profile-page-results{
+    width: 60vw;
+    border-radius: 10px;
+    margin: 1vw;
+}
+.student-profile-page-content{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 450px) {
+    .student-profile-page-content{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .student-profile-page-card{
+        width: 90vw;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgb(255, 255, 255), 0 6px 6px rgba(210, 207, 53, 0.23);
+        margin: 1vw;
+    }
+    .student-profile-page-results{
+        width: 90vw;
+        height: 300px;
+        border-radius: 10px;
+        margin: 1vw;
+    }
+}
+
+.student-profile-page-graphic{
+    width: 92vw;
+    min-height: 40vh;
+    border-radius: 10px;
+    margin-left: 1vw;
+}
+
+@media (max-width: 450px) {
+    .student-profile-page-graphic{
+        width: 90vw;
+        min-height: 500px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 2vw;
+    }
+}
+
+.student-profile-page-rating-contain {
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../../../styles/img/ratingImg.png);
+    background-size: cover;
+    text-align: center;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+

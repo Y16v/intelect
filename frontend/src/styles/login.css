@@ -1,0 +1,32 @@
+.main-login-page{
+    width: 100%;
+    min-height: 100%;
+    margin: auto 0;
+}
+
+.Login {
+    height: 100vh;
+    background-image: url('../styles/img/wallpaper-art-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.Login-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+.card-login{
+    /* Add shadows to create the "card" effect */
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:#ECEBF0;
+    transition: 0.3s;
+    padding: 20px;
+    border-radius: 2px;
+  }

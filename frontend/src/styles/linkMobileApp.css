@@ -1,0 +1,50 @@
+.link-mobile-app-container {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: rgba(243, 236, 19, 0.69);
+}
+
+.link-mobile-app-container a {
+    text-decoration: none;
+}
+
+.link-mobile-app-box-title .link-mobile-app-title {
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link-mobile-app-box-title {
+    display: flex;
+}
+
+.link-mobile-app-img-box {
+    width: 100%;
+    height: 100px;
+    background-image: url(../styles/img/pngwing.com.png);
+    background-size: 100% 100%;
+    margin-top: -10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.link-mobile-app-button {
+    margin-left: auto;
+    width: 60px;
+    height: 25px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.link-mobile-app-button:hover,
+.link-mobile-app-button:focus,
+.link-mobile-app-button:active {
+    background: #fff;
+    color: #000;
+    transition: all 0.5s ease-in;
+    border-radius: 5px;
+}

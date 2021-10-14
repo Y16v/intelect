@@ -1,0 +1,30 @@
+
+.settings-modal-root {
+    background-image: url('img/wallpaper-art-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.result-modal-root {
+    background-image: url('img/wallpaper-art-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+
+.column-game-block {
+    background: rgba(103,142,255,0.44);
+    border-radius: 100px;
+    margin: 55px 27px;
+    padding: 64px 63px 10px 64px;
+}
